@@ -75,8 +75,8 @@ a:hover {
   padding-bottom:30px;
 }
 .project-img {
-  height: 500px;
-  width: 450px;
+  max-height: 500px;
+  max-width: 450px;
 }
 #projectTitle {
   text-align: center;
@@ -99,7 +99,8 @@ a:hover {
   padding-bottom: 60px;
 }
 .well {
-  min-height: 300px;
+  max-height: 500px;
+  max-width: 600px;
 }
 
 #qualif {
