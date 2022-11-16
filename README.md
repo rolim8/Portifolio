@@ -1,3 +1,3 @@
 # Portifolio-Page
 
-https://rolim8.github.io/Portifolio-Page/index.html
+https://rolim8.github.io/Portifolio/
