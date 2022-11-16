@@ -8,9 +8,7 @@ html, body {
     padding: 0;
     overflow-x: hidden;
 }
-.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
-  background-color: #7371f5;
-}
+
 h1 {
   padding-top: 10px;
   font-size: 10.0em;
@@ -238,12 +236,7 @@ footer {
   display: inline;
   color: #002b80;
 }
-.contact-section {
-  background-color: #333;
-  background-size: cover;
-  height: 350px;
-  padding-top: 20px;
-}
+
 .contact-buttons {
   display: block;
   width: 100%;
@@ -263,14 +256,11 @@ footer {
     border-radius: 10px;
     color: white;
 }
-
-@media (min-width:1400px)   {
-  .banner, .skills, .ex-timeline, .portfolios, .contact-section {
-    	background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-position: center;
-   }
+.btn-paper {
+  border-radius: 10px;
+  color: white;
 }
+
 @media (max-width: 800px) and (min-width: 300px) {
   img {
     width: 30vw;
